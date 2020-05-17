@@ -21,10 +21,11 @@ namespace Repositories
         public List<EnderecoFormatado> getEnderecos()
         {
             var reader = GetComand("select Cep, Endereco from enderecos");
-            var endereco = new EnderecoFormatado();
+            
 
             while (reader.Read())
             {
+                var endereco = new EnderecoFormatado();
                 endereco.cep = reader.GetString(0);
                 endereco.endereco = reader.GetString(1);
                 Console.WriteLine("{0} {1}", reader.GetString(0), reader.GetString(1));

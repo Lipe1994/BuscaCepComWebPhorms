@@ -37,20 +37,27 @@ namespace BuscaCep
 
         public void Mountbody(List<EnderecoFormatado> enderecos)
         {
+            List<TableCell> cells = new List<TableCell>();
+            List<TableRow> rows = new List<TableRow>();
 
             foreach (var endereco in enderecos)
             {
-                var tableCellCep = new TableCell();
-                var tableCellEndereco = new TableCell();
+                cells.Add(new TableCell());
+                cells.Add(new TableCell());
 
-                var row = new TableRow();
-                tableCellCep.Text = endereco.cep;
-                tableCellEndereco.Text = endereco.endereco;
 
-                row.Cells.Add(tableCellCep);
-                row.Cells.Add(tableCellEndereco);
+                rows.Add(new TableRow());
 
-                TabelaHistorico.Rows.Add(row);
+                var ultimaCell = cells[cells.Count - 1]; 
+                var pnultimoCell = cells[cells.Count - 2];
+
+                ultimaCell.Text = endereco.cep;
+                pnultimoCell.Text = endereco.endereco;
+
+                rows[rows.Count-1].Cells.Add(ultimaCell);
+                rows[rows.Count - 1].Cells.Add(pnultimoCell);
+
+                TabelaHistorico.Rows.Add(rows[rows.Count - 1]);
             }
         }
     }
