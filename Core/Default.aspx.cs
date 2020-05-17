@@ -31,8 +31,8 @@ namespace Core
                 enderecoFormatado.endereco = $"Rua: {endereco.logradouro},\r\nBairro: {endereco.bairro},\r\nEstado: {endereco.uf},\r\nCep: {endereco.cep}";
             }
             txtEndereco.Text = enderecoFormatado.endereco;
-
-            enderecoRepository.AddEndereco(enderecoFormatado);
+            if(enderecoFormatado?.cep != null)
+                enderecoRepository.AddEndereco(enderecoFormatado);
         }
     }
 }
