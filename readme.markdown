@@ -24,5 +24,5 @@ CREATE TABLE [dbo].[enderecos] (
 ![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example2.PNG)
 
 
-![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example3.PNG)
+![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example-3.PNG)
 
