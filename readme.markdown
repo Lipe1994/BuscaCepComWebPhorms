@@ -18,8 +18,8 @@ CREATE TABLE [dbo].[enderecos] (
 ![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example1.png)
 
 
-![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example2.png)
+![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example2.PNG)
 
 
-![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example3.png)
+![Example](https://github.com/Lipe1994/BuscaCepComWebPhorms/blob/master/example3.PNG)
 
