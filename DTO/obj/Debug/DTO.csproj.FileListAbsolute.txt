@@ -1,0 +1,5 @@
+D:\git\BucaCebWEBPhorms\DTO\bin\Debug\DTO.dll
+D:\git\BucaCebWEBPhorms\DTO\bin\Debug\DTO.pdb
+D:\git\BucaCebWEBPhorms\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\git\BucaCebWEBPhorms\DTO\obj\Debug\DTO.dll
+D:\git\BucaCebWEBPhorms\DTO\obj\Debug\DTO.pdb

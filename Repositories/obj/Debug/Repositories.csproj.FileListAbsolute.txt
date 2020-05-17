@@ -1,0 +1,9 @@
+D:\git\BucaCebWEBPhorms\Repositories\bin\Debug\Repositories.dll
+D:\git\BucaCebWEBPhorms\Repositories\bin\Debug\Repositories.pdb
+D:\git\BucaCebWEBPhorms\Repositories\bin\Debug\DTO.dll
+D:\git\BucaCebWEBPhorms\Repositories\bin\Debug\DTO.pdb
+D:\git\BucaCebWEBPhorms\Repositories\obj\Debug\Repositories.csprojAssemblyReference.cache
+D:\git\BucaCebWEBPhorms\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+D:\git\BucaCebWEBPhorms\Repositories\obj\Debug\Repositories.csproj.CopyComplete
+D:\git\BucaCebWEBPhorms\Repositories\obj\Debug\Repositories.dll
+D:\git\BucaCebWEBPhorms\Repositories\obj\Debug\Repositories.pdb

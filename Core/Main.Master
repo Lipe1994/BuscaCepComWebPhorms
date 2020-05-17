@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Core.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .title {
+            text-align:center;
+            color:brown;
+            font-size:25px;
+        }
+
+        .logo {
+            position:absolute;
+            height:100px;
+            right:0;
+            top:0;
+        }
+
+        .body {
+            width:100%;
+        }
+
+        .menu-item {
+            padding:5px;
+            margin:10px;
+            color: #FFFFFF;
+        }
+
+        .top {
+            display:inline;
+        }
+        .menu {
+            text-align: center;
+            color: #FFFFFF;
+            background-color: #6600FF;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <h1 class="title">Busca Cep</h1>
+        <img class="logo" src="imagens/correios.jpg" />
+    </div>
+    <div class="menu">
+        <asp:HyperLink class="menu-item" ID="pg_default" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink>
+        <asp:HyperLink class="menu-item" ID="pg_creditos" runat="server" NavigateUrl="~/Creditos.aspx">Créditos</asp:HyperLink>
+        <asp:HyperLink class="menu-item" ID="pg_historico" runat="server" NavigateUrl="~/Historico.aspx">Historico</asp:HyperLink>
+    </div>
+    <form id="form1" runat="server">
+        <div class="body">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div>
+        <h2 class="title">Cep Fácil!</h2>
+    </div>
+</body>
+</html>
