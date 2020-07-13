@@ -2,7 +2,7 @@
 
 ##### Para rodar o projeto só é necesário abrir a solução no Visual Studio e marcar a camada "App" como projeto de inicialização
 
-A UI foi desenvolvida com Web Phormes, a integração com serviço de Cep foi feito utilizando ClientHttp do NetFramework, para deserializar o Json fiz uso do newtonSoft via Nuget e para guardar histórico de pesquisas foi usado um bando de dados.
+A UI foi desenvolvida com Web Phorms, a integração com serviço de Cep foi feito utilizando ClientHttp do NetFramework, para deserializar o Json fiz uso do newtonSoft via Nuget e para guardar histórico de pesquisas foi usado um bando de dados.
 
 - para que o histórico funcione é necesário criar um banco de dados com a seguinte estrutura:
  
